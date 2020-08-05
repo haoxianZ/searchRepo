@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-
+import HelloWorld from './state/state-drills/HelloWorld';
+import Bomb from './state/state-drills/Bomb';
+import RouletteGun from './state/state-drills/RouletteGun';
 ReactDOM.render(
     <App />,
   document.getElementById('root')

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs component rendering the first tab 1`] = `
+<div>
+  0
+</div>
+`;
+
+exports[`Tabs component renders empty given no tabs 1`] = `
+<div>
+  0
+</div>
+`;

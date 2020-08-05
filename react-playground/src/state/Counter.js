@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 class Counter extends React.Component {
+    static defaultProps = {step:1}
     constructor(props){
         console.log('props in constructor', props)
         super(props)
@@ -19,7 +20,7 @@ class Counter extends React.Component {
           <p>The current count: {this.state.count}</p>
           <button 
           onClick={this.handleButtonClick}>
-            Add 1
+            Add {this.props.step}
           </button>
         </div>
       )

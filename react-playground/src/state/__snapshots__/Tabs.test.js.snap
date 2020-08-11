@@ -2,12 +2,12 @@
 
 exports[`Tabs component rendering the first tab 1`] = `
 <div>
-  0
+  <ul />
 </div>
 `;
 
 exports[`Tabs component renders empty given no tabs 1`] = `
 <div>
-  0
+  <ul />
 </div>
 `;

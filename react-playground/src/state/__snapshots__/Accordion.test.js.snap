@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion component only open one section a time 1`] = `
+<div>
+  <ul>
+    <li
+      className="item"
+      key="0"
+    >
+      <button
+        key="0"
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      className="item"
+      key="1"
+    >
+      <button
+        key="1"
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+    </li>
+    <li
+      className="item"
+      key="2"
+    >
+      <button
+        key="2"
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+      <p
+        className="content"
+      >
+        Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+      </p>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Accordion component open when click 1`] = `
+<div>
+  <ul>
+    <li
+      className="item"
+      key="0"
+    >
+      <button
+        key="0"
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      className="item"
+      key="1"
+    >
+      <button
+        key="1"
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+      <p
+        className="content"
+      >
+        Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+      </p>
+    </li>
+    <li
+      className="item"
+      key="2"
+    >
+      <button
+        key="2"
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Accordion component render no section by default 1`] = `
+<div>
+  <ul>
+    <li
+      className="item"
+      key="0"
+    >
+      <button
+        key="0"
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      className="item"
+      key="1"
+    >
+      <button
+        key="1"
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+    </li>
+    <li
+      className="item"
+      key="2"
+    >
+      <button
+        key="2"
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Accordion component render without crashing empty 1`] = `
+<div>
+  <ul />
+</div>
+`;

@@ -5,8 +5,10 @@ import App from './App';
 import HelloWorld from './state/state-drills/HelloWorld';
 import Bomb from './state/state-drills/Bomb';
 import RouletteGun from './state/state-drills/RouletteGun';
+import DemonynApp from './demonymApp';
+
 ReactDOM.render(
-    <App />,
+    <DemonynApp />,
   document.getElementById('root')
 );
 
